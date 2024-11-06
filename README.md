@@ -1,8 +1,4 @@
-## Overwiev
-
-Program in Python that translates two-tape Turing machines into one-tape Turing machines.
-
-### Detailed description
+## Description
 
 Write a Python procedure `eliminateInputTape(machine)`. As a parameter it takes a Turing machine with a read-only input tape and with one working tape. The format of the Turing machine should be as in the file `turingPython.ipynb`.
 The procedure should return a Turing machine without the read-only input tape (i.e., with `onlyWorkTape` set to True).
